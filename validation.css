@@ -1,7 +1,11 @@
+h1{
+	color: blue;
+}
+
 input:valid {
-  background-color: #ddffdd;
+  background-color: #BCDDBC;
 }
 
 input:invalid {
-  background-color: #ffdddd;
+  background-color: #FFC4C4;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My website is working just fine</title>
+  <title>validation exercise</title>
   <link rel="stylesheet" href="validation.css">
 </head>
 <body>
@@ -90,14 +90,14 @@
     <fieldset>
     <legend>Contact Information</legend>
       <label for="email-address">Enter your email address</label>
-      <input type="email" name="email" placeholder="Please enter a valid email address" required pattern="https?://.+">
+      <input type="email" name="email" placeholder="Please enter a valid email address">
       <br/>
       <label for="telephone">Enter your telephone number</label>
-      <input type="tel" name="telephone" placeholder="615-999-9999" required>
+      <input type="tel" name="telephone" placeholder="615-999-9999">
       <br/>
       <label for="favorite-url">Enter your LinkedIn URL</label>
-      <input type="url" name="linkedin-url" placeholder="www.LinkedIn.com" required pattern="https?://.+">
-      <br/>
+      <input type="url" name="linkedin-url" placeholder="http://www.LinkedIn.com" >
+      <br/> 
 
       <button type="submit" form="form1" value="Submit">Submit</button>
     
